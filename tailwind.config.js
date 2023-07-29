@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,10 +9,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        white:colors.white,
+        primary:'#164641',
+        secondary:"#D9ED82"
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient': 'linear-gradient(180deg, #20433F 0.34%, rgba(0, 0, 0, 0.00) 76.99%)'
       },
     },
   },
