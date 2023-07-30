@@ -9,7 +9,7 @@ import {
 export const MobileView = () => {
   const [hamBurgerActive, setHamburgerActive] = React.useState(false);
   return (
-    <div className="flex text-white justify-between lg:hidden items-center">
+    <div className="flex justify-between lg:hidden items-center">
       <Link href="/">FootlooseXda</Link>
       <div onClick={() => setHamburgerActive((prev) => !prev)}>
         {!hamBurgerActive && (

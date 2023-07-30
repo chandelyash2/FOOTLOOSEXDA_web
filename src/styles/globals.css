@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  color: white;
+}
+
+.center .slick-center .sliderwarpper {
+    opacity: 1;
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+}
+.center .sliderwarpper {
+  transition: all .10s ease;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'Font Awesome'; /* Use your custom icon font or image for arrows */
+  content: '\f104'; /* Use the Unicode or image content for the arrow */
+  font-size: 24px; /* Adjust the font size or image size as needed */
+  color: #fff; /* Customize the arrow color */
+}
