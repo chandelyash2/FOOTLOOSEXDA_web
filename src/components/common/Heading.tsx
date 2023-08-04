@@ -7,7 +7,7 @@ interface HeadingProp {
 export const Heading = ({ children, className }: HeadingProp) => {
   return (
     <h2
-      className={`text-2xl leading-[40px] capitalize  font-semibold md:text-5xl md:leading-[70px] ${className}`}
+      className={`text-2xl leading-[40px] capitalize font-semibold md:text-5xl md:leading-[70px] ${className}`}
     >
       {children}
     </h2>

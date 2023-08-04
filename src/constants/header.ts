@@ -16,3 +16,18 @@ export const navList = [
     link: "/blog",
   },
 ];
+
+export const socialIconsList=[
+  {
+    src: "/img/instagram.png",
+    link: "/",
+  },
+  {
+    src: "/img/facebook.png",
+    link: "/",
+  },
+  {
+    src: "/img/whtsapp.png",
+    link: "/",
+  },
+]

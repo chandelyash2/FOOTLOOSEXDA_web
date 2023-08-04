@@ -4,7 +4,7 @@ import { SliderComponent } from '../common/Slider/Slider'
 
 export const PopularDestination = () => {
   return (
-    <div className="bg-primary  mt-[-180px] lg:mt-[-240px] rounded-[52px] py-20">
+    <div className="bg-primary  mt-[-20%] lg:mt-[-4%] rounded-[52px] py-20">
       <Heading className="text-center">
         recommended <span className="text-secondary">Popular</span>
         <br /> destinations

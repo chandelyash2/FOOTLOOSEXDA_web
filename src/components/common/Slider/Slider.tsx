@@ -75,9 +75,9 @@ export const SliderComponent = () => {
         prevArrow={<Arrow type="prev" />}
       >
         {imgArr.map((item, i) => (
-          <div key={i} className="p-8 lg:p-8">
+          <div key={i} className="p-8">
             <div
-              className="sliderwarpper relative flex items-end rounded-[30px] h-[463px] bg-cover text-center before:rounded-[30px] before:content-[''] before:bg-gradient2 before:absolute before:top-0 before:w-full before:h-full "
+              className="sliderwarpper relative flex items-end rounded-[30px]  h-[350px] bg-cover text-center before:rounded-[30px] before:content-[''] before:bg-gradient2 before:absolute before:top-0 before:w-full before:h-full "
               style={{ backgroundImage: `url(${item.name})` }}
             >
               <div className="p-2.5 text-center relative z-50">
